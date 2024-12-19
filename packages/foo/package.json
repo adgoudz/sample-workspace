@@ -1,0 +1,19 @@
+{
+  "name": "@sample-workspace/foo",
+  "version": "0.0.1",
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "private": true,
+  "dependencies": {
+    "bar": "*"
+  },
+  "nx": {
+    "sourceRoot": "packages/foo/src",
+    "projectType": "library",
+    "name": "foo"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/foo"
+    },
+    {
+      "path": "./packages/bar"
+    }
+  ]
+}
